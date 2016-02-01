@@ -1327,7 +1327,7 @@ function mg_add_x_axis_categorical_labels (g, args, additional_buffer) {
     + (args.buffer) * args.outer_padding_percentage + (additional_buffer / 2);
   })
     .attr('y', mg_get_plot_bottom(args))
-    .attr('dy', '.35em')
+    .attr('dy', '1.35em')
     .attr('text-anchor', 'middle')
     .text(String);
 
