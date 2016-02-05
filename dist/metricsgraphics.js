@@ -1066,7 +1066,7 @@ function mg_add_y_label (g, args) {
       .attr('y', function () {
         return args.left / 2;
       })
-      .attr('dy', '0.4em')
+      .attr('dy', '-1.0em')
       .attr('text-anchor', 'middle')
       .text(function (d) {
         return args.y_label;
