@@ -5611,7 +5611,8 @@ function mg_add_categorical_scale (args, scale_name, categorical_variables, low,
 function mg_rotate_labels (labels, rotation_degree) {
   if (rotation_degree) {
     labels.attr({
-      dy: 0,
+      dy: '.6em',
+      dx: '1.35em',
       transform: function() {
         var elem = d3.select(this);
         return 'rotate('+rotation_degree+' '+elem.attr('x')+','+elem.attr('y')+')';
